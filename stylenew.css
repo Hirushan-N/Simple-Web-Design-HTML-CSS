@@ -1,0 +1,195 @@
+body
+{
+	background-color:#2E0D06;
+}
+.header
+{
+	width:auto;
+	height:500;
+	background-position:center;
+	background-repeat:none;
+	background-image:url("background.jpg");
+
+}
+.menu-bar
+{
+	background:#000000;
+	opacity:0.8;
+	width:auto;
+	font-size:20;
+	text-align:center;
+}
+.sname
+{
+	width:auto;
+	height:auto;
+	background-color:#000000;
+	float:left;
+	text-align:center;
+	padding-left:10px;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar ul li
+{
+	width:auto;
+	padding:30px;
+	
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.active, .menu-bar ul li :hover
+{
+	background-color:#0000FF;
+	border-radius:10px;
+}
+.my
+{
+	color:#fff;
+}
+.property
+{
+	color:#ff0000;
+}
+.choose
+{
+	height:550px;
+	border-radius: 25px;
+	color:#fff;
+	background:#000000;
+	opacity:0.6;
+}
+.choose ul li
+{
+	font-size:20px;
+	padding:10px;
+	list-style:none;
+	text-align:center;
+}
+.advertiesment
+{
+	width:590px;
+	height:1000px;
+	background-color:#A9A9A9;
+	margin:20px;
+	border-width:5px;
+	border-style:ridge;
+	border-color:#0000FF;
+	box-shadow:5px 10px;
+	float:left;
+}
+.advertiesment img
+{
+	align:top;
+	height:450px;
+}
+.advertiesment ul li
+{
+	list-style:none;
+	font-size:30px;
+	padding:2px;
+}
+b
+{
+	color:red;
+	text-align:left;
+}
+.contentleft
+{
+	float:left;
+	background-color:#000000;
+	opacity:0.5;
+	width: 1000px;
+	margin: 20px;
+	padding:20px;
+	color:white;
+	text-align:left;
+}
+.contentright
+{
+	float:right;
+	background-color:#000000;
+	opacity:0.5;
+	width: 1000px;
+	margin: 20px;
+	padding:20px;
+	color:white;
+	text-align:right;
+}
+footer
+{
+	width:auto;
+	height:30px;
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	position:bottom;
+	background-color:#C0C0C0;
+	opacity:0.7;
+	clear:both;
+	
+}
+
+/* contact page */
+.contact-in
+{
+	background:#000000;
+	opacity:0.7;
+	color:#fff;
+	text-align:center;
+}
+.us
+{
+	color:#ff0000;
+}
+p{
+	font-family: sans-serif;
+	font-weight:bold;
+}
+.form-external {  
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.form-external label {
+	margin: 5px 10px 5px 0;
+}
+
+.form-external input {
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.form-external button {
+	padding: 10px 20px;
+	background-color: dodgerblue;
+	border: 1px solid #ddd;
+	color: white;
+	cursor: pointer;
+}
+
+.form-external button:hover {
+	background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+	.form-external input {
+		margin: 10px 0;
+	}
+	
+	.form-external {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}																
